@@ -11,7 +11,7 @@ const Projects = () => {
                 <div className="row row-cols-1 row-cols-md-3 g-4 p-3">
                     <div className="col">
                         <div className="card h-100 bg-dark">
-                            <img src="https://i.ibb.co/P5G04sw/2.png" className="card-img-top" alt="..." />
+                            <img src="https://i.ibb.co/P5G04sw/2.png" className="card-img-top image" alt="..." />
                             <div className="card-body  text-success">
                                 <h4 className="card-title">MOBILE SHOP -Niche Product Website (MERN stack)</h4>
                                 <p className="card-text">
@@ -21,14 +21,13 @@ const Projects = () => {
                             </div>
                             <div className="d-flex align-items-sm-center justify-content-around">
                                 <Link to="/shop">Details</Link>
-                                <Nav.Link target="_blank" href=" https://mobile-shop-a9ca5.web.app">view Site</Nav.Link>
-                                <Link>View Code</Link>
+                                <Nav.Link as={Link} target="_blank" href=" https://mobile-shop-a9ca5.web.app">View Site</Nav.Link>
                             </div>
                         </div>
                     </div>
                     <div className="col">
                         <div className="card h-100 bg-dark">
-                            <img src="https://i.ibb.co/TYc9tbz/1.png" className="card-img-top" alt="..." />
+                            <img src="https://i.ibb.co/TYc9tbz/1.png" className="card-img-top image" alt="..." />
                             <div className="card-body text-success">
                                 <h4 className="card-title">GHURBO- A Tour Management Website (MERN stack)</h4>
                                 <p className="card-text">
@@ -38,14 +37,13 @@ const Projects = () => {
                             </div>
                             <div className="d-flex align-items-sm-center justify-content-around">
                                 <Link>Details</Link>
-                                <Nav.Link target="_blank" href="https://ghurbo-authentication.web.app/home">view Site</Nav.Link>
-                                <Link>View Code</Link>
+                                <Nav.Link target="_blank" href="https://ghurbo-authentication.web.app/home">View Site</Nav.Link>
                             </div>
                         </div>
                     </div>
                     <div className="col">
                         <div className="card h-100 bg-dark">
-                            <img src="https://i.ibb.co/Sn0ST61/3.png" className="card-img-top" alt="..." />
+                            <img src="https://i.ibb.co/Sn0ST61/3.png" className="card-img-top image" alt="..." />
                             <div className="card-body text-success">
                                 <h4 className="card-title">Hona CBR 300-R</h4>
                                 <p className="card-text">
@@ -54,8 +52,7 @@ const Projects = () => {
                             </div>
                             <div className="d-flex align-items-sm-center justify-content-around">
                                 <Link>Details</Link>
-                                <Nav.Link target="_blank" href="https://flamboyant-wozniak-152dc3.netlify.app/">view Site</Nav.Link>
-                                <Link>View Code</Link>
+                                <Nav.Link target="_blank" href="https://flamboyant-wozniak-152dc3.netlify.app/">View Site</Nav.Link>
                             </div>
                         </div>
                     </div>
