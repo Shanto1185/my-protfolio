@@ -12,14 +12,12 @@ const AboutMe = () => {
                         <div className="col-md-6  mt-5 p-5">
                             <h1>Hello!</h1>
                             <div className="description">
-                                <h1>I'M Najumul Hasan Shanto</h1>
-                                <h4>I am an enthusiastic JavaScript developer with knowing some framework
+                                <h1>I'M <span className="name">Najumul Hasan Shanto</span></h1>
+                                <h5>I am an enthusiastic JavaScript developer with knowing some framework
                                     for the frontend and the backend. I know Basic PHP and MySQL but
                                     basically a MERN developer.
-                                </h4>
+                                </h5>
                             </div>
-                            <button>Hire Me</button>
-                            <button>Download Resume</button>
                         </div>
                         <div className="col-md-6  mt-5">
                             <img src={image} alt="" className="img-fluid rounded-3 " />

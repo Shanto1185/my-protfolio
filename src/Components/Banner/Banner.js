@@ -1,6 +1,6 @@
 import React from 'react';
 import './Banner.css';
-import profile from '../../images/new.png'
+import profile from '../../images/profile.png'
 import { Typewriter } from 'react-simple-typewriter'
 import { Nav } from 'react-bootstrap';
 
